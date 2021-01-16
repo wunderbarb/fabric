@@ -1,0 +1,15 @@
+# Configuration file for the Blockchain connector
+debug = true
+
+[sdk]
+dir = "/home/eric/Dev/github.com/blockchain1/testdata/conf"
+ChannelID = "mychannel"
+ChaincodeID = "fabcar"
+OrgAdmin = "Admin"
+
+[gateway]
+Connection = "connection-org1.yaml"
+User = "user1"
+UserPwd = "user1pw"
+notlocal = true
+dir = "/home/eric/Dev/github.com/blockchain1/testdata/conf"
