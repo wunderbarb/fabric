@@ -7,3 +7,5 @@ The remote blockchain is operational running an instance of fabcar.  The remote 
 `go test` fails.  The same commands using a traditional access work perfectly.
 
 The status of `DISCOVERY_AS_LOCAL_HOST` is in the log file `bc.log`.
+
+The directory `logs` hold four logs from the remote peer0 in DEBUG mode. The logs with prefix `normal_` are for transaction using the standard mode whereas the logs without the prefix are for transaction using the gateway.

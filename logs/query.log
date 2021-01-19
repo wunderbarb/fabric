@@ -1,0 +1,196 @@
+[36m2021-01-19 20:19:52.558 UTC [msp.identity] Sign -> DEBU 2dbc[0m Sign: plaintext: 18012A500A3F0A1B70656572302E6F72...7E120D08C3CEA58AA69FEEAD1610CB0A 
+[36m2021-01-19 20:19:52.558 UTC [msp.identity] Sign -> DEBU 2dbd[0m Sign: digest: 5499DA7541F29CB219016986284ABD8B70E45A1D8CC3736E2EFD672A666F70DC 
+[36m2021-01-19 20:19:52.559 UTC [msp.identity] Sign -> DEBU 2dbe[0m Sign: plaintext: 0A1B70656572302E6F7267312E6578616D706C652E636F6D3A37303531 
+[36m2021-01-19 20:19:52.559 UTC [msp.identity] Sign -> DEBU 2dbf[0m Sign: digest: A785FC0B61B5045A71C0FA6B50D12EB1E6F0CDB152C6F79E6575060F54022160 
+[36m2021-01-19 20:19:52.559 UTC [gossip.discovery] periodicalSendAlive -> DEBU 2dc0[0m Sleeping 5s
+[36m2021-01-19 20:19:53.625 UTC [msp.identity] Sign -> DEBU 2dc1[0m Sign: plaintext: 18012A500A3F0A1B70656572302E6F72...7E120D08C3CEA58AA69FEEAD1610CC0A 
+[36m2021-01-19 20:19:53.625 UTC [msp.identity] Sign -> DEBU 2dc2[0m Sign: digest: D77AED5030CF0FD659A1A5824A01E4D558EF7925B880E75EC3B4F56D8EE1107C 
+[36m2021-01-19 20:19:53.625 UTC [msp.identity] Sign -> DEBU 2dc3[0m Sign: plaintext: 0A1B70656572302E6F7267312E6578616D706C652E636F6D3A37303531 
+[36m2021-01-19 20:19:53.625 UTC [msp.identity] Sign -> DEBU 2dc4[0m Sign: digest: A785FC0B61B5045A71C0FA6B50D12EB1E6F0CDB152C6F79E6575060F54022160 
+[36m2021-01-19 20:19:56.077 UTC [endorser] ProcessProposal -> DEBU 2dc5[0m request from 104.172.162.255:2830
+[36m2021-01-19 20:19:56.077 UTC [endorser] Validate -> DEBU 2dc6[0m creator is valid channel=mychannel txID=c6d12bb2 mspID=Org1MSP
+[36m2021-01-19 20:19:56.077 UTC [msp.identity] Verify -> DEBU 2dc7[0m Verify: digest = 00000000  58 ba 9c 35 3f 5f ac 1b  95 11 4e 2d a1 ce 06 45  |X..5?_....N-...E|
+00000010  2c 7a f3 2a 6e da 9b 89  19 8a 97 66 a9 a3 7d 04  |,z.*n......f..}.|
+[36m2021-01-19 20:19:56.077 UTC [msp.identity] Verify -> DEBU 2dc8[0m Verify: sig = 00000000  30 44 02 20 68 71 11 93  0c 05 f6 a7 72 09 18 9d  |0D. hq......r...|
+00000010  d3 ca 16 75 bd bf ce 4c  84 d6 ed d0 9e cb d9 79  |...u...L.......y|
+00000020  df bb 93 8b 02 20 36 72  a0 da 4a 82 d7 fa 6d cf  |..... 6r..J...m.|
+00000030  06 4c cf db 1f 54 cd 80  c7 c8 47 0b 50 29 a6 0c  |.L...T....G.P)..|
+00000040  49 3a c2 31 3c 88                                 |I:.1<.|
+[36m2021-01-19 20:19:56.077 UTC [endorser] Validate -> DEBU 2dc9[0m signature is valid channel=mychannel txID=c6d12bb2 mspID=Org1MSP
+[36m2021-01-19 20:19:56.077 UTC [blkstorage] retrieveTransactionByID -> DEBU 2dca[0m retrieveTransactionByID() - txId = [c6d12bb2259a73435355ca726face3662fa11a51ae820198716b7c648f3f309d]
+[36m2021-01-19 20:19:56.077 UTC [leveldbhelper] GetIterator -> DEBU 2dcb[0m Getting iterator for range [[]byte{0x6d, 0x79, 0x63, 0x68, 0x61, 0x6e, 0x6e, 0x65, 0x6c, 0x0, 0x74, 0x1, 0x40, 0x63, 0x36, 0x64, 0x31, 0x32, 0x62, 0x62, 0x32, 0x32, 0x35, 0x39, 0x61, 0x37, 0x33, 0x34, 0x33, 0x35, 0x33, 0x35, 0x35, 0x63, 0x61, 0x37, 0x32, 0x36, 0x66, 0x61, 0x63, 0x65, 0x33, 0x36, 0x36, 0x32, 0x66, 0x61, 0x31, 0x31, 0x61, 0x35, 0x31, 0x61, 0x65, 0x38, 0x32, 0x30, 0x31, 0x39, 0x38, 0x37, 0x31, 0x36, 0x62, 0x37, 0x63, 0x36, 0x34, 0x38, 0x66, 0x33, 0x66, 0x33, 0x30, 0x39, 0x64}] - [[]byte{0x6d, 0x79, 0x63, 0x68, 0x61, 0x6e, 0x6e, 0x65, 0x6c, 0x0, 0x74, 0x1, 0x40, 0x63, 0x36, 0x64, 0x31, 0x32, 0x62, 0x62, 0x32, 0x32, 0x35, 0x39, 0x61, 0x37, 0x33, 0x34, 0x33, 0x35, 0x33, 0x35, 0x35, 0x63, 0x61, 0x37, 0x32, 0x36, 0x66, 0x61, 0x63, 0x65, 0x33, 0x36, 0x36, 0x32, 0x66, 0x61, 0x31, 0x31, 0x61, 0x35, 0x31, 0x61, 0x65, 0x38, 0x32, 0x30, 0x31, 0x39, 0x38, 0x37, 0x31, 0x36, 0x62, 0x37, 0x63, 0x36, 0x34, 0x38, 0x66, 0x33, 0x66, 0x33, 0x30, 0x39, 0x64, 0xff}]
+[36m2021-01-19 20:19:56.077 UTC [chaincode] CheckInvocation -> DEBU 2dcc[0m [c6d12bb2] getting chaincode data for cscc on channel mychannel
+[36m2021-01-19 20:19:56.077 UTC [chaincode] Execute -> DEBU 2dcd[0m Entry
+[36m2021-01-19 20:19:56.077 UTC [cscc] Invoke -> DEBU 2dce[0m Invoke function: GetConfigBlock
+[36m2021-01-19 20:19:56.077 UTC [aclmgmt] CheckACL -> DEBU 2dcf[0m acl policy not found in config for resource cscc/GetConfigBlock
+[36m2021-01-19 20:19:56.077 UTC [policies] EvaluateSignedData -> DEBU 2dd0[0m == Evaluating *policies.ImplicitMetaPolicy Policy /Channel/Application/Readers ==
+[36m2021-01-19 20:19:56.077 UTC [policies] EvaluateSignedData -> DEBU 2dd1[0m This is an implicit meta policy, it will trigger other policy evaluations, whose failures may be benign
+[36m2021-01-19 20:19:56.077 UTC [policies] EvaluateSignedData -> DEBU 2dd2[0m == Evaluating *cauthdsl.policy Policy /Channel/Application/Org1MSP/Readers ==
+[36m2021-01-19 20:19:56.077 UTC [msp.identity] Verify -> DEBU 2dd3[0m Verify: digest = 00000000  58 ba 9c 35 3f 5f ac 1b  95 11 4e 2d a1 ce 06 45  |X..5?_....N-...E|
+00000010  2c 7a f3 2a 6e da 9b 89  19 8a 97 66 a9 a3 7d 04  |,z.*n......f..}.|
+[36m2021-01-19 20:19:56.077 UTC [msp.identity] Verify -> DEBU 2dd4[0m Verify: sig = 00000000  30 44 02 20 68 71 11 93  0c 05 f6 a7 72 09 18 9d  |0D. hq......r...|
+00000010  d3 ca 16 75 bd bf ce 4c  84 d6 ed d0 9e cb d9 79  |...u...L.......y|
+00000020  df bb 93 8b 02 20 36 72  a0 da 4a 82 d7 fa 6d cf  |..... 6r..J...m.|
+00000030  06 4c cf db 1f 54 cd 80  c7 c8 47 0b 50 29 a6 0c  |.L...T....G.P)..|
+00000040  49 3a c2 31 3c 88                                 |I:.1<.|
+[36m2021-01-19 20:19:56.078 UTC [policies] SignatureSetToValidIdentities -> DEBU 2dd5[0m signature for identity 0 validated
+[36m2021-01-19 20:19:56.078 UTC [cauthdsl] func1 -> DEBU 2dd6[0m 0xc002aa0bb0 gate 1611087596078081942 evaluation starts
+[36m2021-01-19 20:19:56.078 UTC [cauthdsl] func2 -> DEBU 2dd7[0m 0xc002aa0bb0 signed by 0 principal evaluation starts (used [false])
+[36m2021-01-19 20:19:56.078 UTC [cauthdsl] func2 -> DEBU 2dd8[0m 0xc002aa0bb0 processing identity 0 - &{Org1MSP 8ad5a36e9d12b50b9d2591996a72b0349699eb42cc9ba46934ab8344e03de76d}
+[36m2021-01-19 20:19:56.078 UTC [cauthdsl] func2 -> DEBU 2dd9[0m 0xc002aa0bb0 identity 0 does not satisfy principal: The identity is not an admin under this MSP [Org1MSP]: The identity does not contain OU [ADMIN], MSP: [Org1MSP]
+[36m2021-01-19 20:19:56.078 UTC [cauthdsl] func2 -> DEBU 2dda[0m 0xc002aa0bb0 principal evaluation fails
+[36m2021-01-19 20:19:56.078 UTC [cauthdsl] func2 -> DEBU 2ddb[0m 0xc002aa0bb0 signed by 1 principal evaluation starts (used [false])
+[36m2021-01-19 20:19:56.078 UTC [cauthdsl] func2 -> DEBU 2ddc[0m 0xc002aa0bb0 processing identity 0 - &{Org1MSP 8ad5a36e9d12b50b9d2591996a72b0349699eb42cc9ba46934ab8344e03de76d}
+[36m2021-01-19 20:19:56.078 UTC [cauthdsl] func2 -> DEBU 2ddd[0m 0xc002aa0bb0 identity 0 does not satisfy principal: The identity is not a [PEER] under this MSP [Org1MSP]: The identity does not contain OU [PEER], MSP: [Org1MSP]
+[36m2021-01-19 20:19:56.078 UTC [cauthdsl] func2 -> DEBU 2dde[0m 0xc002aa0bb0 principal evaluation fails
+[36m2021-01-19 20:19:56.078 UTC [cauthdsl] func2 -> DEBU 2ddf[0m 0xc002aa0bb0 signed by 2 principal evaluation starts (used [false])
+[36m2021-01-19 20:19:56.078 UTC [cauthdsl] func2 -> DEBU 2de0[0m 0xc002aa0bb0 processing identity 0 - &{Org1MSP 8ad5a36e9d12b50b9d2591996a72b0349699eb42cc9ba46934ab8344e03de76d}
+[36m2021-01-19 20:19:56.078 UTC [cauthdsl] func2 -> DEBU 2de1[0m 0xc002aa0bb0 principal evaluation succeeds for identity 0
+[36m2021-01-19 20:19:56.078 UTC [cauthdsl] func1 -> DEBU 2de2[0m 0xc002aa0bb0 gate 1611087596078081942 evaluation succeeds
+[36m2021-01-19 20:19:56.078 UTC [policies] EvaluateSignedData -> DEBU 2de3[0m Signature set satisfies policy /Channel/Application/Org1MSP/Readers
+[36m2021-01-19 20:19:56.078 UTC [policies] EvaluateSignedData -> DEBU 2de4[0m == Done Evaluating *cauthdsl.policy Policy /Channel/Application/Org1MSP/Readers
+[36m2021-01-19 20:19:56.078 UTC [policies] EvaluateSignedData -> DEBU 2de5[0m Signature set satisfies policy /Channel/Application/Readers
+[36m2021-01-19 20:19:56.078 UTC [policies] EvaluateSignedData -> DEBU 2de6[0m == Done Evaluating *policies.ImplicitMetaPolicy Policy /Channel/Application/Readers
+[36m2021-01-19 20:19:56.078 UTC [peer] ConfigBlockFromLedger -> DEBU 2de7[0m Getting config block
+[36m2021-01-19 20:19:56.078 UTC [blkstorage] retrieveBlockByNumber -> DEBU 2de8[0m retrieveBlockByNumber() - blockNum = [7]
+[36m2021-01-19 20:19:56.078 UTC [blkstorage] newBlockfileStream -> DEBU 2de9[0m newBlockfileStream(): filePath=[/var/hyperledger/production/ledgersData/chains/chains/mychannel/blockfile_000000], startOffset=[61442]
+[36m2021-01-19 20:19:56.078 UTC [blkstorage] nextBlockBytesAndPlacementInfo -> DEBU 2dea[0m Remaining bytes=[4768], Going to peek [8] bytes
+[36m2021-01-19 20:19:56.078 UTC [blkstorage] nextBlockBytesAndPlacementInfo -> DEBU 2deb[0m Returning blockbytes - length=[4766], placementInfo={fileNum=[0], startOffset=[61442], bytesOffset=[61444]}
+[36m2021-01-19 20:19:56.078 UTC [blkstorage] retrieveBlockByNumber -> DEBU 2dec[0m retrieveBlockByNumber() - blockNum = [1]
+[36m2021-01-19 20:19:56.078 UTC [blkstorage] newBlockfileStream -> DEBU 2ded[0m newBlockfileStream(): filePath=[/var/hyperledger/production/ledgersData/chains/chains/mychannel/blockfile_000000], startOffset=[17506]
+[36m2021-01-19 20:19:56.078 UTC [blkstorage] nextBlockBytesAndPlacementInfo -> DEBU 2dee[0m Remaining bytes=[48704], Going to peek [8] bytes
+[36m2021-01-19 20:19:56.078 UTC [blkstorage] nextBlockBytesAndPlacementInfo -> DEBU 2def[0m Returning blockbytes - length=[18652], placementInfo={fileNum=[0], startOffset=[17506], bytesOffset=[17509]}
+[36m2021-01-19 20:19:56.078 UTC [peer] ConfigBlockFromLedger -> DEBU 2df0[0m Got config block[1]
+[36m2021-01-19 20:19:56.078 UTC [chaincode] handleMessage -> DEBU 2df1[0m [c6d12bb2] Fabric side handling ChaincodeMessage of type: COMPLETED in state ready
+[36m2021-01-19 20:19:56.078 UTC [chaincode] Notify -> DEBU 2df2[0m [c6d12bb2] notifying Txid:c6d12bb2259a73435355ca726face3662fa11a51ae820198716b7c648f3f309d, channelID:mychannel
+[36m2021-01-19 20:19:56.078 UTC [chaincode] Execute -> DEBU 2df3[0m Exit
+[34m2021-01-19 20:19:56.078 UTC [endorser] callChaincode -> INFO 2df4[0m finished chaincode: cscc duration: 1ms channel=mychannel txID=c6d12bb2
+[36m2021-01-19 20:19:56.078 UTC [endorser] ProcessProposalSuccessfullyOrError -> DEBU 2df5[0m escc for chaincode cscc is escc channel=mychannel txID=c6d12bb2
+[36m2021-01-19 20:19:56.078 UTC [msp.identity] Sign -> DEBU 2df6[0m Sign: plaintext: 0A20FC7DBDAF143EB43A6E27AD456DB1...455254494649434154452D2D2D2D2D0A 
+[36m2021-01-19 20:19:56.078 UTC [msp.identity] Sign -> DEBU 2df7[0m Sign: digest: EFBDAB5DF7C7CD47E55D7F474D2C1FA81E2FAC11251EEFA0DD08752134FACFE6 
+[34m2021-01-19 20:19:56.078 UTC [comm.grpc.server] 1 -> INFO 2df8[0m unary call completed grpc.service=protos.Endorser grpc.method=ProcessProposal grpc.request_deadline=2021-01-19T20:22:55.927Z grpc.peer_address=104.172.162.255:2830 grpc.code=OK grpc.call_duration=2.046391ms
+[36m2021-01-19 20:19:57.559 UTC [msp.identity] Sign -> DEBU 2df9[0m Sign: plaintext: 18012A500A3F0A1B70656572302E6F72...7E120D08C3CEA58AA69FEEAD1610CD0A 
+[36m2021-01-19 20:19:57.559 UTC [msp.identity] Sign -> DEBU 2dfa[0m Sign: digest: 3AB182DB345A5501D14E662EF6D54D05F12763EE9277B21EECFEA942E5B299F1 
+[36m2021-01-19 20:19:57.559 UTC [msp.identity] Sign -> DEBU 2dfb[0m Sign: plaintext: 0A1B70656572302E6F7267312E6578616D706C652E636F6D3A37303531 
+[36m2021-01-19 20:19:57.559 UTC [msp.identity] Sign -> DEBU 2dfc[0m Sign: digest: A785FC0B61B5045A71C0FA6B50D12EB1E6F0CDB152C6F79E6575060F54022160 
+[36m2021-01-19 20:19:57.559 UTC [gossip.discovery] periodicalSendAlive -> DEBU 2dfd[0m Sleeping 5s
+[36m2021-01-19 20:19:57.626 UTC [msp.identity] Sign -> DEBU 2dfe[0m Sign: plaintext: 18012A500A3F0A1B70656572302E6F72...7E120D08C3CEA58AA69FEEAD1610CE0A 
+[36m2021-01-19 20:19:57.626 UTC [msp.identity] Sign -> DEBU 2dff[0m Sign: digest: 5FD72F290528D9A56D93FA55478BDF2788530394B98707450228EB54B0F96DB6 
+[36m2021-01-19 20:19:57.626 UTC [msp.identity] Sign -> DEBU 2e00[0m Sign: plaintext: 0A1B70656572302E6F7267312E6578616D706C652E636F6D3A37303531 
+[36m2021-01-19 20:19:57.626 UTC [msp.identity] Sign -> DEBU 2e01[0m Sign: digest: A785FC0B61B5045A71C0FA6B50D12EB1E6F0CDB152C6F79E6575060F54022160 
+[36m2021-01-19 20:20:01.626 UTC [msp.identity] Sign -> DEBU 2e02[0m Sign: plaintext: 18012A500A3F0A1B70656572302E6F72...7E120D08C3CEA58AA69FEEAD1610CF0A 
+[36m2021-01-19 20:20:01.626 UTC [msp.identity] Sign -> DEBU 2e03[0m Sign: digest: 0C68DC9B183B2EB03061E69BAF9714598883CFBCBDD7E2AFBDD52B6FCD0F3429 
+[36m2021-01-19 20:20:01.626 UTC [msp.identity] Sign -> DEBU 2e04[0m Sign: plaintext: 0A1B70656572302E6F7267312E6578616D706C652E636F6D3A37303531 
+[36m2021-01-19 20:20:01.626 UTC [msp.identity] Sign -> DEBU 2e05[0m Sign: digest: A785FC0B61B5045A71C0FA6B50D12EB1E6F0CDB152C6F79E6575060F54022160 
+[36m2021-01-19 20:20:02.257 UTC [gossip.discovery] periodicalReconnectToDead -> DEBU 2e06[0m Sleeping 25s
+[36m2021-01-19 20:20:02.559 UTC [msp.identity] Sign -> DEBU 2e07[0m Sign: plaintext: 18012A500A3F0A1B70656572302E6F72...7E120D08C3CEA58AA69FEEAD1610D00A 
+[36m2021-01-19 20:20:02.560 UTC [msp.identity] Sign -> DEBU 2e08[0m Sign: digest: 5A66CD3E135035634CE08F45432A2C634E91E2BDD029A43FBCD165A3A39F93BE 
+[36m2021-01-19 20:20:02.560 UTC [msp.identity] Sign -> DEBU 2e09[0m Sign: plaintext: 0A1B70656572302E6F7267312E6578616D706C652E636F6D3A37303531 
+[36m2021-01-19 20:20:02.560 UTC [msp.identity] Sign -> DEBU 2e0a[0m Sign: digest: A785FC0B61B5045A71C0FA6B50D12EB1E6F0CDB152C6F79E6575060F54022160 
+[36m2021-01-19 20:20:02.560 UTC [gossip.discovery] periodicalSendAlive -> DEBU 2e0b[0m Sleeping 5s
+[36m2021-01-19 20:20:05.189 UTC [discovery] Discover -> DEBU 2e0c[0m Processing request from 104.172.162.255:2830: authentication:<client_identity:"\n\007Org1MSP\022\234\007-----BEGIN CERTIFICATE-----\nMIICfTCCAiOgAwIBAgIUdHKwB27jx+Rx1GFA+RjCLF+QvWcwCgYIKoZIzj0EAwIw\ngYExCzAJBgNVBAYTAlVTMRMwEQYDVQQIEwpDYWxpZm9ybmlhMSQwIgYDVQQHExtT\nb255IFBpY3R1cmVzIEVudGVydGFpbm1lbnQxGTAXBgNVBAoTEG9yZzEuZXhhbXBs\nZS5jb20xHDAaBgNVBAMTE2NhLm9yZzEuZXhhbXBsZS5jb20wHhcNMjEwMTE5MTk0\nNTAwWhcNMjIwMTE5MTk1MDAwWjAhMQ8wDQYDVQQLEwZjbGllbnQxDjAMBgNVBAMT\nBXVzZXIxMFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAErAbNwWKHlzMSuEzdbdkA\nb55walfx7fFL2iJHfnxFBKEbZsZxmwo9nljefsZkE04Dsb24LD1ntEJLkzNabhA3\nsaOB1zCB1DAOBgNVHQ8BAf8EBAMCB4AwDAYDVR0TAQH/BAIwADAdBgNVHQ4EFgQU\nua8rX0+UuLWFovgBTLP0nW0dEYAwHwYDVR0jBBgwFoAUJWXO1KKBrjIzy7UVh2Ps\n4KDEqjswGgYDVR0RBBMwEYIPREVTS1RPUC1UOE4yOElGMFgGCCoDBAUGBwgBBEx7\nImF0dHJzIjp7ImhmLkFmZmlsaWF0aW9uIjoiIiwiaGYuRW5yb2xsbWVudElEIjoi\ndXNlcjEiLCJoZi5UeXBlIjoiY2xpZW50In19MAoGCCqGSM49BAMCA0gAMEUCIQDT\n8cwkNJrFazyY6wEJuUc/e5DydS+o5OgJg8ALaQ6mYAIgAqK4UY/vIxg/cNHcUE75\ndr0QdAVH1eiobGZ1ndNd2qE=\n-----END CERTIFICATE-----\n" client_tls_cert_hash:"\343\260\304B\230\374\034\024\232\373\364\310\231o\271$'\256A\344d\233\223L\244\225\231\033xR\270U" > queries:<channel:"mychannel" cc_query:<interests:<chaincodes:<name:"fabcar" > > > > 
+[36m2021-01-19 20:20:05.189 UTC [policies] EvaluateSignedData -> DEBU 2e0d[0m == Evaluating *policies.ImplicitMetaPolicy Policy /Channel/Application/Writers ==
+[36m2021-01-19 20:20:05.189 UTC [policies] EvaluateSignedData -> DEBU 2e0e[0m This is an implicit meta policy, it will trigger other policy evaluations, whose failures may be benign
+[36m2021-01-19 20:20:05.189 UTC [policies] EvaluateSignedData -> DEBU 2e0f[0m == Evaluating *cauthdsl.policy Policy /Channel/Application/Org1MSP/Writers ==
+[36m2021-01-19 20:20:05.189 UTC [msp.identity] Verify -> DEBU 2e10[0m Verify: digest = 00000000  62 2c 43 ad 7a 5f 9b ce  0d d8 fd 2e eb 86 4c a6  |b,C.z_........L.|
+00000010  37 fc de 48 72 0f ab 35  5c cf cc f7 3e 36 d0 c7  |7..Hr..5\...>6..|
+[36m2021-01-19 20:20:05.189 UTC [msp.identity] Verify -> DEBU 2e11[0m Verify: sig = 00000000  30 45 02 21 00 8c 59 de  f3 4d a4 02 51 86 fb 09  |0E.!..Y..M..Q...|
+00000010  ca 9f b7 86 d7 df 22 f4  56 61 33 3f e4 a2 89 34  |......".Va3?...4|
+00000020  01 08 e0 62 3c 02 20 0e  8f 93 f0 98 fc 0e ae ab  |...b<. .........|
+00000030  0e 54 01 f6 f3 b7 b6 12  b5 9f b4 d9 e5 a6 88 38  |.T.............8|
+00000040  3a 4c fc 8e 33 93 ca                              |:L..3..|
+[36m2021-01-19 20:20:05.189 UTC [policies] SignatureSetToValidIdentities -> DEBU 2e12[0m signature for identity 0 validated
+[36m2021-01-19 20:20:05.189 UTC [cauthdsl] func1 -> DEBU 2e13[0m 0xc0000498e0 gate 1611087605189582023 evaluation starts
+[36m2021-01-19 20:20:05.189 UTC [cauthdsl] func2 -> DEBU 2e14[0m 0xc0000498e0 signed by 0 principal evaluation starts (used [false])
+[36m2021-01-19 20:20:05.189 UTC [cauthdsl] func2 -> DEBU 2e15[0m 0xc0000498e0 processing identity 0 - &{Org1MSP 8ad5a36e9d12b50b9d2591996a72b0349699eb42cc9ba46934ab8344e03de76d}
+[36m2021-01-19 20:20:05.189 UTC [cauthdsl] func2 -> DEBU 2e16[0m 0xc0000498e0 identity 0 does not satisfy principal: The identity is not an admin under this MSP [Org1MSP]: The identity does not contain OU [ADMIN], MSP: [Org1MSP]
+[36m2021-01-19 20:20:05.189 UTC [cauthdsl] func2 -> DEBU 2e17[0m 0xc0000498e0 principal evaluation fails
+[36m2021-01-19 20:20:05.189 UTC [cauthdsl] func2 -> DEBU 2e18[0m 0xc0000498e0 signed by 1 principal evaluation starts (used [false])
+[36m2021-01-19 20:20:05.189 UTC [cauthdsl] func2 -> DEBU 2e19[0m 0xc0000498e0 processing identity 0 - &{Org1MSP 8ad5a36e9d12b50b9d2591996a72b0349699eb42cc9ba46934ab8344e03de76d}
+[36m2021-01-19 20:20:05.189 UTC [cauthdsl] func2 -> DEBU 2e1a[0m 0xc0000498e0 principal evaluation succeeds for identity 0
+[36m2021-01-19 20:20:05.189 UTC [cauthdsl] func1 -> DEBU 2e1b[0m 0xc0000498e0 gate 1611087605189582023 evaluation succeeds
+[36m2021-01-19 20:20:05.189 UTC [policies] EvaluateSignedData -> DEBU 2e1c[0m Signature set satisfies policy /Channel/Application/Org1MSP/Writers
+[36m2021-01-19 20:20:05.189 UTC [policies] EvaluateSignedData -> DEBU 2e1d[0m == Done Evaluating *cauthdsl.policy Policy /Channel/Application/Org1MSP/Writers
+[36m2021-01-19 20:20:05.189 UTC [policies] EvaluateSignedData -> DEBU 2e1e[0m Signature set satisfies policy /Channel/Application/Writers
+[36m2021-01-19 20:20:05.189 UTC [policies] EvaluateSignedData -> DEBU 2e1f[0m == Done Evaluating *policies.ImplicitMetaPolicy Policy /Channel/Application/Writers
+[36m2021-01-19 20:20:05.189 UTC [policies] Convert -> DEBU 2e20[0m == Converting *policies.ImplicitMetaPolicy Policy /Channel/Application/Endorsement ==
+[36m2021-01-19 20:20:05.189 UTC [policies] Convert -> DEBU 2e21[0m == Converting *cauthdsl.policy Policy /Channel/Application/Org1MSP/Endorsement ==
+[36m2021-01-19 20:20:05.189 UTC [policies] Convert -> DEBU 2e22[0m == Done Converting *cauthdsl.policy Policy /Channel/Application/Org1MSP/Endorsement
+[36m2021-01-19 20:20:05.189 UTC [policies] Convert -> DEBU 2e23[0m == Done Converting *policies.ImplicitMetaPolicy Policy /Channel/Application/Endorsement
+[36m2021-01-19 20:20:05.189 UTC [discovery.endorsement] loadMetadataAndFilters -> DEBU 2e24[0m No collections for fabcar, skipping channel=mychannel
+[36m2021-01-19 20:20:05.189 UTC [policies] Convert -> DEBU 2e25[0m == Converting *policies.ImplicitMetaPolicy Policy /Channel/Application/Endorsement ==
+[36m2021-01-19 20:20:05.189 UTC [policies] Convert -> DEBU 2e26[0m == Converting *cauthdsl.policy Policy /Channel/Application/Org1MSP/Endorsement ==
+[36m2021-01-19 20:20:05.190 UTC [policies] Convert -> DEBU 2e27[0m == Done Converting *cauthdsl.policy Policy /Channel/Application/Org1MSP/Endorsement
+[36m2021-01-19 20:20:05.190 UTC [policies] Convert -> DEBU 2e28[0m == Done Converting *policies.ImplicitMetaPolicy Policy /Channel/Application/Endorsement
+[36m2021-01-19 20:20:05.190 UTC [discovery.endorsement] func1 -> DEBU 2e29[0m Endpoint: peer0.org1.example.com:7051, InternalEndpoint: , PKI-ID: f9eafc0cd7ca418234ee310887fbd6f56f88849005c19b446ddd4abd8602407e, Metadata:  satisfies principal principal:"\n\007Org1MSP\020\003" 
+[36m2021-01-19 20:20:05.190 UTC [discovery] Discover -> DEBU 2e2a[0m Returning to 104.172.162.255:2830 a response containing: [cc_query_res:<content:<chaincode:"fabcar" endorsers_by_groups:<key:"G0" value:<peers:<state_info:<payload:"\030\005z|\022\024\010\254\307\222\312\235\275\356\255\026\020\356\374\304\201\372\360\356\255\026\032 \371\352\374\014\327\312A\2024\3561\010\207\373\326\365o\210\204\220\005\301\233Dm\335J\275\206\002@~\" \217!\202h\013\010=\310ij\020\326\304\370nP\343\373\305\363 |x\240\343\020<w4\346\201\032* \010\010\032\013\n\006fabcar\022\0011\032\017\n\n_lifecycle\022\0011" signature:"0E\002!\000\207\362\260R~i(\341>\r=\223\n\341d\260\030G\235\222\306\347\251ET5\211\273s\230*\257\002 [R\347\017>1\325\337\242\322<\222\367\255t-\264\260\324\001\377\330\000a\372V\351\213|\276>\331" > membership_info:<payload:"\030\001*P\n?\n\033peer0.org1.example.com:7051\032 \371\352\374\014\327\312A\2024\3561\010\207\373\326\365o\210\204\220\005\301\233Dm\335J\275\206\002@~\022\r\010\303\316\245\212\246\237\356\255\026\020\321\n" > identity:"\n\007Org1MSP\022\361\007-----BEGIN CERTIFICATE-----\nMIICuzCCAmKgAwIBAgIURNyKt+mFIuN9XnrIlqU4yEvI2bgwCgYIKoZIzj0EAwIw\ngYExCzAJBgNVBAYTAlVTMRMwEQYDVQQIEwpDYWxpZm9ybmlhMSQwIgYDVQQHExtT\nb255IFBpY3R1cmVzIEVudGVydGFpbm1lbnQxGTAXBgNVBAoTEG9yZzEuZXhhbXBs\nZS5jb20xHDAaBgNVBAMTE2NhLm9yZzEuZXhhbXBsZS5jb20wHhcNMjEwMTE5MTky\nNjAwWhcNMjIwMTE5MTkzMTAwWjBbMQswCQYDVQQGEwJVUzEXMBUGA1UECBMOTm9y\ndGggQ2Fyb2xpbmExFDASBgNVBAoTC0h5cGVybGVkZ2VyMQ0wCwYDVQQLEwRwZWVy\nMQ4wDAYDVQQDEwVwZWVyMDBZMBMGByqGSM49AgEGCCqGSM49AwEHA0IABPQKPRhR\n+TESZwqkF7lraqMpz/nb2s5DpKgRDFx3TVbJ3duWEgStOWdj3FVpY3ropMHXWbD0\n/zw4TB5G2bUmNIGjgdwwgdkwDgYDVR0PAQH/BAQDAgeAMAwGA1UdEwEB/wQCMAAw\nHQYDVR0OBBYEFGG+86/pkmjDmIAvlB2ssOGw2T+OMB8GA1UdIwQYMBaAFCVlztSi\nga4yM8u1FYdj7OCgxKo7MCEGA1UdEQQaMBiCFnBlZXIwLm9yZzEuZXhhbXBsZS5j\nb20wVgYIKgMEBQYHCAEESnsiYXR0cnMiOnsiaGYuQWZmaWxpYXRpb24iOiIiLCJo\nZi5FbnJvbGxtZW50SUQiOiJwZWVyMCIsImhmLlR5cGUiOiJwZWVyIn19MAoGCCqG\nSM49BAMCA0cAMEQCIBa2Mu+hfAnVl7aPM1uvCLLIHPH3qr8A9xhf98DcjS+hAiA+\nj+i3gVuHrSYzvAn8/lujvlYrK54PklrfSwxFn3s9IQ==\n-----END CERTIFICATE-----\n" > > > layouts:<quantities_by_group:<key:"G0" value:1 > > > > ]
+[34m2021-01-19 20:20:05.190 UTC [comm.grpc.server] 1 -> INFO 2e2b[0m unary call completed grpc.service=discovery.Discovery grpc.method=Discover grpc.request_deadline=2021-01-19T20:20:20.188Z grpc.peer_address=104.172.162.255:2830 grpc.code=OK grpc.call_duration=1.355876ms
+[36m2021-01-19 20:20:05.240 UTC [discovery] Discover -> DEBU 2e2c[0m Processing request from 104.172.162.255:2830: authentication:<client_identity:"\n\007Org1MSP\022\234\007-----BEGIN CERTIFICATE-----\nMIICfTCCAiOgAwIBAgIUdHKwB27jx+Rx1GFA+RjCLF+QvWcwCgYIKoZIzj0EAwIw\ngYExCzAJBgNVBAYTAlVTMRMwEQYDVQQIEwpDYWxpZm9ybmlhMSQwIgYDVQQHExtT\nb255IFBpY3R1cmVzIEVudGVydGFpbm1lbnQxGTAXBgNVBAoTEG9yZzEuZXhhbXBs\nZS5jb20xHDAaBgNVBAMTE2NhLm9yZzEuZXhhbXBsZS5jb20wHhcNMjEwMTE5MTk0\nNTAwWhcNMjIwMTE5MTk1MDAwWjAhMQ8wDQYDVQQLEwZjbGllbnQxDjAMBgNVBAMT\nBXVzZXIxMFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAErAbNwWKHlzMSuEzdbdkA\nb55walfx7fFL2iJHfnxFBKEbZsZxmwo9nljefsZkE04Dsb24LD1ntEJLkzNabhA3\nsaOB1zCB1DAOBgNVHQ8BAf8EBAMCB4AwDAYDVR0TAQH/BAIwADAdBgNVHQ4EFgQU\nua8rX0+UuLWFovgBTLP0nW0dEYAwHwYDVR0jBBgwFoAUJWXO1KKBrjIzy7UVh2Ps\n4KDEqjswGgYDVR0RBBMwEYIPREVTS1RPUC1UOE4yOElGMFgGCCoDBAUGBwgBBEx7\nImF0dHJzIjp7ImhmLkFmZmlsaWF0aW9uIjoiIiwiaGYuRW5yb2xsbWVudElEIjoi\ndXNlcjEiLCJoZi5UeXBlIjoiY2xpZW50In19MAoGCCqGSM49BAMCA0gAMEUCIQDT\n8cwkNJrFazyY6wEJuUc/e5DydS+o5OgJg8ALaQ6mYAIgAqK4UY/vIxg/cNHcUE75\ndr0QdAVH1eiobGZ1ndNd2qE=\n-----END CERTIFICATE-----\n" client_tls_cert_hash:"\343\260\304B\230\374\034\024\232\373\364\310\231o\271$'\256A\344d\233\223L\244\225\231\033xR\270U" > queries:<channel:"mychannel" peer_query:<filter:<> > > 
+[36m2021-01-19 20:20:05.240 UTC [policies] EvaluateSignedData -> DEBU 2e2e[0m == Evaluating *policies.ImplicitMetaPolicy Policy /Channel/Application/Writers ==
+[36m2021-01-19 20:20:05.240 UTC [policies] EvaluateSignedData -> DEBU 2e2f[0m This is an implicit meta policy, it will trigger other policy evaluations, whose failures may be benign
+[36m2021-01-19 20:20:05.240 UTC [policies] EvaluateSignedData -> DEBU 2e30[0m == Evaluating *cauthdsl.policy Policy /Channel/Application/Org1MSP/Writers ==
+[36m2021-01-19 20:20:05.240 UTC [msp.identity] Verify -> DEBU 2e31[0m Verify: digest = 00000000  70 c8 56 1d 72 b2 4b f3  a9 3f 8a f0 b3 d6 29 87  |p.V.r.K..?....).|
+00000010  b3 d0 4d 74 c7 5a 06 a6  03 c1 83 8b 36 23 a3 b1  |..Mt.Z......6#..|
+[36m2021-01-19 20:20:05.240 UTC [discovery] Discover -> DEBU 2e2d[0m Processing request from 104.172.162.255:2830: authentication:<client_identity:"\n\007Org1MSP\022\234\007-----BEGIN CERTIFICATE-----\nMIICfTCCAiOgAwIBAgIUdHKwB27jx+Rx1GFA+RjCLF+QvWcwCgYIKoZIzj0EAwIw\ngYExCzAJBgNVBAYTAlVTMRMwEQYDVQQIEwpDYWxpZm9ybmlhMSQwIgYDVQQHExtT\nb255IFBpY3R1cmVzIEVudGVydGFpbm1lbnQxGTAXBgNVBAoTEG9yZzEuZXhhbXBs\nZS5jb20xHDAaBgNVBAMTE2NhLm9yZzEuZXhhbXBsZS5jb20wHhcNMjEwMTE5MTk0\nNTAwWhcNMjIwMTE5MTk1MDAwWjAhMQ8wDQYDVQQLEwZjbGllbnQxDjAMBgNVBAMT\nBXVzZXIxMFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAErAbNwWKHlzMSuEzdbdkA\nb55walfx7fFL2iJHfnxFBKEbZsZxmwo9nljefsZkE04Dsb24LD1ntEJLkzNabhA3\nsaOB1zCB1DAOBgNVHQ8BAf8EBAMCB4AwDAYDVR0TAQH/BAIwADAdBgNVHQ4EFgQU\nua8rX0+UuLWFovgBTLP0nW0dEYAwHwYDVR0jBBgwFoAUJWXO1KKBrjIzy7UVh2Ps\n4KDEqjswGgYDVR0RBBMwEYIPREVTS1RPUC1UOE4yOElGMFgGCCoDBAUGBwgBBEx7\nImF0dHJzIjp7ImhmLkFmZmlsaWF0aW9uIjoiIiwiaGYuRW5yb2xsbWVudElEIjoi\ndXNlcjEiLCJoZi5UeXBlIjoiY2xpZW50In19MAoGCCqGSM49BAMCA0gAMEUCIQDT\n8cwkNJrFazyY6wEJuUc/e5DydS+o5OgJg8ALaQ6mYAIgAqK4UY/vIxg/cNHcUE75\ndr0QdAVH1eiobGZ1ndNd2qE=\n-----END CERTIFICATE-----\n" client_tls_cert_hash:"\343\260\304B\230\374\034\024\232\373\364\310\231o\271$'\256A\344d\233\223L\244\225\231\033xR\270U" > queries:<channel:"mychannel" cc_query:<interests:<chaincodes:<name:"fabcar" > > > > 
+[36m2021-01-19 20:20:05.241 UTC [policies] EvaluateSignedData -> DEBU 2e33[0m == Evaluating *policies.ImplicitMetaPolicy Policy /Channel/Application/Writers ==
+[36m2021-01-19 20:20:05.241 UTC [policies] EvaluateSignedData -> DEBU 2e34[0m This is an implicit meta policy, it will trigger other policy evaluations, whose failures may be benign
+[36m2021-01-19 20:20:05.241 UTC [policies] EvaluateSignedData -> DEBU 2e35[0m == Evaluating *cauthdsl.policy Policy /Channel/Application/Org1MSP/Writers ==
+[36m2021-01-19 20:20:05.241 UTC [msp.identity] Verify -> DEBU 2e36[0m Verify: digest = 00000000  62 2c 43 ad 7a 5f 9b ce  0d d8 fd 2e eb 86 4c a6  |b,C.z_........L.|
+00000010  37 fc de 48 72 0f ab 35  5c cf cc f7 3e 36 d0 c7  |7..Hr..5\...>6..|
+[36m2021-01-19 20:20:05.241 UTC [msp.identity] Verify -> DEBU 2e37[0m Verify: sig = 00000000  30 44 02 20 7a 9c bc 53  07 d6 da 1f 30 b2 23 93  |0D. z..S....0.#.|
+00000010  5c 37 47 0c 3a b2 30 eb  a0 b4 d2 75 f7 f6 fa 9f  |\7G.:.0....u....|
+00000020  f4 ab f9 2b 02 20 31 92  cd 93 75 69 69 11 4e 84  |...+. 1...uii.N.|
+00000030  89 b9 bc 63 b4 91 20 96  4b c4 7d 56 7b ed c2 bd  |...c.. .K.}V{...|
+00000040  29 db 41 bc ab 3a                                 |).A..:|
+[36m2021-01-19 20:20:05.241 UTC [msp.identity] Verify -> DEBU 2e32[0m Verify: sig = 00000000  30 44 02 20 39 31 9e b2  50 28 a8 f2 2c 85 3c ee  |0D. 91..P(..,.<.|
+00000010  36 42 1f 73 97 b3 e7 22  6c 3b 01 84 6d 89 f6 ca  |6B.s..."l;..m...|
+00000020  e1 30 7d 17 02 20 1f b5  30 3f 1d 27 66 c1 41 30  |.0}.. ..0?.'f.A0|
+00000030  5f da c5 e5 18 24 4f 37  c9 b0 d6 08 6e c0 23 57  |_....$O7....n.#W|
+00000040  a0 83 88 90 6c 70                                 |....lp|
+[36m2021-01-19 20:20:05.241 UTC [policies] SignatureSetToValidIdentities -> DEBU 2e38[0m signature for identity 0 validated
+[36m2021-01-19 20:20:05.241 UTC [cauthdsl] func1 -> DEBU 2e39[0m 0xc000577620 gate 1611087605241551975 evaluation starts
+[36m2021-01-19 20:20:05.241 UTC [cauthdsl] func2 -> DEBU 2e3a[0m 0xc000577620 signed by 0 principal evaluation starts (used [false])
+[36m2021-01-19 20:20:05.241 UTC [cauthdsl] func2 -> DEBU 2e3b[0m 0xc000577620 processing identity 0 - &{Org1MSP 8ad5a36e9d12b50b9d2591996a72b0349699eb42cc9ba46934ab8344e03de76d}
+[36m2021-01-19 20:20:05.241 UTC [cauthdsl] func2 -> DEBU 2e3c[0m 0xc000577620 identity 0 does not satisfy principal: The identity is not an admin under this MSP [Org1MSP]: The identity does not contain OU [ADMIN], MSP: [Org1MSP]
+[36m2021-01-19 20:20:05.241 UTC [cauthdsl] func2 -> DEBU 2e3d[0m 0xc000577620 principal evaluation fails
+[36m2021-01-19 20:20:05.241 UTC [cauthdsl] func2 -> DEBU 2e3e[0m 0xc000577620 signed by 1 principal evaluation starts (used [false])
+[36m2021-01-19 20:20:05.241 UTC [cauthdsl] func2 -> DEBU 2e3f[0m 0xc000577620 processing identity 0 - &{Org1MSP 8ad5a36e9d12b50b9d2591996a72b0349699eb42cc9ba46934ab8344e03de76d}
+[36m2021-01-19 20:20:05.241 UTC [cauthdsl] func2 -> DEBU 2e40[0m 0xc000577620 principal evaluation succeeds for identity 0
+[36m2021-01-19 20:20:05.241 UTC [cauthdsl] func1 -> DEBU 2e41[0m 0xc000577620 gate 1611087605241551975 evaluation succeeds
+[36m2021-01-19 20:20:05.241 UTC [policies] EvaluateSignedData -> DEBU 2e42[0m Signature set satisfies policy /Channel/Application/Org1MSP/Writers
+[36m2021-01-19 20:20:05.241 UTC [policies] EvaluateSignedData -> DEBU 2e43[0m == Done Evaluating *cauthdsl.policy Policy /Channel/Application/Org1MSP/Writers
+[36m2021-01-19 20:20:05.241 UTC [policies] EvaluateSignedData -> DEBU 2e44[0m Signature set satisfies policy /Channel/Application/Writers
+[36m2021-01-19 20:20:05.241 UTC [policies] EvaluateSignedData -> DEBU 2e45[0m == Done Evaluating *policies.ImplicitMetaPolicy Policy /Channel/Application/Writers
+[36m2021-01-19 20:20:05.241 UTC [policies] Convert -> DEBU 2e46[0m == Converting *policies.ImplicitMetaPolicy Policy /Channel/Application/Endorsement ==
+[36m2021-01-19 20:20:05.241 UTC [policies] Convert -> DEBU 2e47[0m == Converting *cauthdsl.policy Policy /Channel/Application/Org1MSP/Endorsement ==
+[36m2021-01-19 20:20:05.241 UTC [policies] Convert -> DEBU 2e48[0m == Done Converting *cauthdsl.policy Policy /Channel/Application/Org1MSP/Endorsement
+[36m2021-01-19 20:20:05.241 UTC [policies] Convert -> DEBU 2e49[0m == Done Converting *policies.ImplicitMetaPolicy Policy /Channel/Application/Endorsement
+[36m2021-01-19 20:20:05.241 UTC [discovery.endorsement] loadMetadataAndFilters -> DEBU 2e4a[0m No collections for fabcar, skipping channel=mychannel
+[36m2021-01-19 20:20:05.242 UTC [policies] Convert -> DEBU 2e4b[0m == Converting *policies.ImplicitMetaPolicy Policy /Channel/Application/Endorsement ==
+[36m2021-01-19 20:20:05.242 UTC [policies] Convert -> DEBU 2e4c[0m == Converting *cauthdsl.policy Policy /Channel/Application/Org1MSP/Endorsement ==
+[36m2021-01-19 20:20:05.242 UTC [policies] Convert -> DEBU 2e4d[0m == Done Converting *cauthdsl.policy Policy /Channel/Application/Org1MSP/Endorsement
+[36m2021-01-19 20:20:05.242 UTC [policies] Convert -> DEBU 2e4e[0m == Done Converting *policies.ImplicitMetaPolicy Policy /Channel/Application/Endorsement
+[36m2021-01-19 20:20:05.242 UTC [discovery.endorsement] func1 -> DEBU 2e4f[0m Endpoint: peer0.org1.example.com:7051, InternalEndpoint: , PKI-ID: f9eafc0cd7ca418234ee310887fbd6f56f88849005c19b446ddd4abd8602407e, Metadata:  satisfies principal principal:"\n\007Org1MSP\020\003" 
+[36m2021-01-19 20:20:05.242 UTC [policies] SignatureSetToValidIdentities -> DEBU 2e50[0m signature for identity 0 validated
+[36m2021-01-19 20:20:05.242 UTC [cauthdsl] func1 -> DEBU 2e51[0m 0xc002a07f30 gate 1611087605242340687 evaluation starts
+[36m2021-01-19 20:20:05.242 UTC [cauthdsl] func2 -> DEBU 2e53[0m 0xc002a07f30 signed by 0 principal evaluation starts (used [false])
+[36m2021-01-19 20:20:05.242 UTC [cauthdsl] func2 -> DEBU 2e54[0m 0xc002a07f30 processing identity 0 - &{Org1MSP 8ad5a36e9d12b50b9d2591996a72b0349699eb42cc9ba46934ab8344e03de76d}
+[36m2021-01-19 20:20:05.242 UTC [cauthdsl] func2 -> DEBU 2e55[0m 0xc002a07f30 identity 0 does not satisfy principal: The identity is not an admin under this MSP [Org1MSP]: The identity does not contain OU [ADMIN], MSP: [Org1MSP]
+[36m2021-01-19 20:20:05.242 UTC [cauthdsl] func2 -> DEBU 2e56[0m 0xc002a07f30 principal evaluation fails
+[36m2021-01-19 20:20:05.242 UTC [cauthdsl] func2 -> DEBU 2e57[0m 0xc002a07f30 signed by 1 principal evaluation starts (used [false])
+[36m2021-01-19 20:20:05.242 UTC [cauthdsl] func2 -> DEBU 2e58[0m 0xc002a07f30 processing identity 0 - &{Org1MSP 8ad5a36e9d12b50b9d2591996a72b0349699eb42cc9ba46934ab8344e03de76d}
+[36m2021-01-19 20:20:05.242 UTC [cauthdsl] func2 -> DEBU 2e59[0m 0xc002a07f30 principal evaluation succeeds for identity 0
+[36m2021-01-19 20:20:05.242 UTC [cauthdsl] func1 -> DEBU 2e5a[0m 0xc002a07f30 gate 1611087605242340687 evaluation succeeds
+[36m2021-01-19 20:20:05.242 UTC [policies] EvaluateSignedData -> DEBU 2e5b[0m Signature set satisfies policy /Channel/Application/Org1MSP/Writers
+[36m2021-01-19 20:20:05.242 UTC [policies] EvaluateSignedData -> DEBU 2e5c[0m == Done Evaluating *cauthdsl.policy Policy /Channel/Application/Org1MSP/Writers
+[36m2021-01-19 20:20:05.242 UTC [policies] EvaluateSignedData -> DEBU 2e5d[0m Signature set satisfies policy /Channel/Application/Writers
+[36m2021-01-19 20:20:05.242 UTC [policies] EvaluateSignedData -> DEBU 2e5e[0m == Done Evaluating *policies.ImplicitMetaPolicy Policy /Channel/Application/Writers
+[36m2021-01-19 20:20:05.242 UTC [discovery] Discover -> DEBU 2e52[0m Returning to 104.172.162.255:2830 a response containing: [cc_query_res:<content:<chaincode:"fabcar" endorsers_by_groups:<key:"G0" value:<peers:<state_info:<payload:"\030\005z|\022\024\010\254\307\222\312\235\275\356\255\026\020\356\374\304\201\372\360\356\255\026\032 \371\352\374\014\327\312A\2024\3561\010\207\373\326\365o\210\204\220\005\301\233Dm\335J\275\206\002@~\" \217!\202h\013\010=\310ij\020\326\304\370nP\343\373\305\363 |x\240\343\020<w4\346\201\032* \010\010\032\013\n\006fabcar\022\0011\032\017\n\n_lifecycle\022\0011" signature:"0E\002!\000\207\362\260R~i(\341>\r=\223\n\341d\260\030G\235\222\306\347\251ET5\211\273s\230*\257\002 [R\347\017>1\325\337\242\322<\222\367\255t-\264\260\324\001\377\330\000a\372V\351\213|\276>\331" > membership_info:<payload:"\030\001*P\n?\n\033peer0.org1.example.com:7051\032 \371\352\374\014\327\312A\2024\3561\010\207\373\326\365o\210\204\220\005\301\233Dm\335J\275\206\002@~\022\r\010\303\316\245\212\246\237\356\255\026\020\322\n" > identity:"\n\007Org1MSP\022\361\007-----BEGIN CERTIFICATE-----\nMIICuzCCAmKgAwIBAgIURNyKt+mFIuN9XnrIlqU4yEvI2bgwCgYIKoZIzj0EAwIw\ngYExCzAJBgNVBAYTAlVTMRMwEQYDVQQIEwpDYWxpZm9ybmlhMSQwIgYDVQQHExtT\nb255IFBpY3R1cmVzIEVudGVydGFpbm1lbnQxGTAXBgNVBAoTEG9yZzEuZXhhbXBs\nZS5jb20xHDAaBgNVBAMTE2NhLm9yZzEuZXhhbXBsZS5jb20wHhcNMjEwMTE5MTky\nNjAwWhcNMjIwMTE5MTkzMTAwWjBbMQswCQYDVQQGEwJVUzEXMBUGA1UECBMOTm9y\ndGggQ2Fyb2xpbmExFDASBgNVBAoTC0h5cGVybGVkZ2VyMQ0wCwYDVQQLEwRwZWVy\nMQ4wDAYDVQQDEwVwZWVyMDBZMBMGByqGSM49AgEGCCqGSM49AwEHA0IABPQKPRhR\n+TESZwqkF7lraqMpz/nb2s5DpKgRDFx3TVbJ3duWEgStOWdj3FVpY3ropMHXWbD0\n/zw4TB5G2bUmNIGjgdwwgdkwDgYDVR0PAQH/BAQDAgeAMAwGA1UdEwEB/wQCMAAw\nHQYDVR0OBBYEFGG+86/pkmjDmIAvlB2ssOGw2T+OMB8GA1UdIwQYMBaAFCVlztSi\nga4yM8u1FYdj7OCgxKo7MCEGA1UdEQQaMBiCFnBlZXIwLm9yZzEuZXhhbXBsZS5j\nb20wVgYIKgMEBQYHCAEESnsiYXR0cnMiOnsiaGYuQWZmaWxpYXRpb24iOiIiLCJo\nZi5FbnJvbGxtZW50SUQiOiJwZWVyMCIsImhmLlR5cGUiOiJwZWVyIn19MAoGCCqG\nSM49BAMCA0cAMEQCIBa2Mu+hfAnVl7aPM1uvCLLIHPH3qr8A9xhf98DcjS+hAiA+\nj+i3gVuHrSYzvAn8/lujvlYrK54PklrfSwxFn3s9IQ==\n-----END CERTIFICATE-----\n" > > > layouts:<quantities_by_group:<key:"G0" value:1 > > > > ]
+[34m2021-01-19 20:20:05.242 UTC [comm.grpc.server] 1 -> INFO 2e5f[0m unary call completed grpc.service=discovery.Discovery grpc.method=Discover grpc.request_deadline=2021-01-19T20:20:20.24Z grpc.peer_address=104.172.162.255:2830 grpc.code=OK grpc.call_duration=2.330087ms
+[36m2021-01-19 20:20:05.243 UTC [discovery] Discover -> DEBU 2e60[0m Returning to 104.172.162.255:2830 a response containing: [members:<peers_by_org:<key:"Org1MSP" value:<peers:<state_info:<payload:"\030\005z|\022\024\010\254\307\222\312\235\275\356\255\026\020\356\374\304\201\372\360\356\255\026\032 \371\352\374\014\327\312A\2024\3561\010\207\373\326\365o\210\204\220\005\301\233Dm\335J\275\206\002@~\" \217!\202h\013\010=\310ij\020\326\304\370nP\343\373\305\363 |x\240\343\020<w4\346\201\032* \010\010\032\013\n\006fabcar\022\0011\032\017\n\n_lifecycle\022\0011" signature:"0E\002!\000\207\362\260R~i(\341>\r=\223\n\341d\260\030G\235\222\306\347\251ET5\211\273s\230*\257\002 [R\347\017>1\325\337\242\322<\222\367\255t-\264\260\324\001\377\330\000a\372V\351\213|\276>\331" > membership_info:<payload:"\030\001*P\n?\n\033peer0.org1.example.com:7051\032 \371\352\374\014\327\312A\2024\3561\010\207\373\326\365o\210\204\220\005\301\233Dm\335J\275\206\002@~\022\r\010\303\316\245\212\246\237\356\255\026\020\323\n" > identity:"\n\007Org1MSP\022\361\007-----BEGIN CERTIFICATE-----\nMIICuzCCAmKgAwIBAgIURNyKt+mFIuN9XnrIlqU4yEvI2bgwCgYIKoZIzj0EAwIw\ngYExCzAJBgNVBAYTAlVTMRMwEQYDVQQIEwpDYWxpZm9ybmlhMSQwIgYDVQQHExtT\nb255IFBpY3R1cmVzIEVudGVydGFpbm1lbnQxGTAXBgNVBAoTEG9yZzEuZXhhbXBs\nZS5jb20xHDAaBgNVBAMTE2NhLm9yZzEuZXhhbXBsZS5jb20wHhcNMjEwMTE5MTky\nNjAwWhcNMjIwMTE5MTkzMTAwWjBbMQswCQYDVQQGEwJVUzEXMBUGA1UECBMOTm9y\ndGggQ2Fyb2xpbmExFDASBgNVBAoTC0h5cGVybGVkZ2VyMQ0wCwYDVQQLEwRwZWVy\nMQ4wDAYDVQQDEwVwZWVyMDBZMBMGByqGSM49AgEGCCqGSM49AwEHA0IABPQKPRhR\n+TESZwqkF7lraqMpz/nb2s5DpKgRDFx3TVbJ3duWEgStOWdj3FVpY3ropMHXWbD0\n/zw4TB5G2bUmNIGjgdwwgdkwDgYDVR0PAQH/BAQDAgeAMAwGA1UdEwEB/wQCMAAw\nHQYDVR0OBBYEFGG+86/pkmjDmIAvlB2ssOGw2T+OMB8GA1UdIwQYMBaAFCVlztSi\nga4yM8u1FYdj7OCgxKo7MCEGA1UdEQQaMBiCFnBlZXIwLm9yZzEuZXhhbXBsZS5j\nb20wVgYIKgMEBQYHCAEESnsiYXR0cnMiOnsiaGYuQWZmaWxpYXRpb24iOiIiLCJo\nZi5FbnJvbGxtZW50SUQiOiJwZWVyMCIsImhmLlR5cGUiOiJwZWVyIn19MAoGCCqG\nSM49BAMCA0cAMEQCIBa2Mu+hfAnVl7aPM1uvCLLIHPH3qr8A9xhf98DcjS+hAiA+\nj+i3gVuHrSYzvAn8/lujvlYrK54PklrfSwxFn3s9IQ==\n-----END CERTIFICATE-----\n" > > > > ]
+[34m2021-01-19 20:20:05.243 UTC [comm.grpc.server] 1 -> INFO 2e61[0m unary call completed grpc.service=discovery.Discovery grpc.method=Discover grpc.request_deadline=2021-01-19T20:20:20.24Z grpc.peer_address=104.172.162.255:2830 grpc.code=OK grpc.call_duration=2.716134ms
+[36m2021-01-19 20:20:05.303 UTC [grpc] infof -> DEBU 2e62[0m transport: loopyWriter.run returning. connection error: desc = "transport is closing"
+[36m2021-01-19 20:20:05.627 UTC [msp.identity] Sign -> DEBU 2e63[0m Sign: plaintext: 18012A500A3F0A1B70656572302E6F72...7E120D08C3CEA58AA69FEEAD1610D40A 
+[36m2021-01-19 20:20:05.627 UTC [msp.identity] Sign -> DEBU 2e64[0m Sign: digest: 4DDADE94F0407C14D26C71F64B87CBFE402119ED57A26108BD1C814F6828894D 
+[36m2021-01-19 20:20:05.627 UTC [msp.identity] Sign -> DEBU 2e65[0m Sign: plaintext: 0A1B70656572302E6F7267312E6578616D706C652E636F6D3A37303531 
+[36m2021-01-19 20:20:05.627 UTC [msp.identity] Sign -> DEBU 2e66[0m Sign: digest: A785FC0B61B5045A71C0FA6B50D12EB1E6F0CDB152C6F79E6575060F54022160 
